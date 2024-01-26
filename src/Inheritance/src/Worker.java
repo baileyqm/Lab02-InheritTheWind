@@ -35,7 +35,7 @@ public class Worker extends Person {
             return "Regular Pay: "+ (hoursWorked*hourlyPayRate) + "| Overtime: 0 | Total: " + (hoursWorked*hourlyPayRate);
         } else
         {
-            return "Regular Pay: " + (40*hourlyPayRate) + "| Overtime: " + ((hoursWorked - 40) * (1.5 * hourlyPayRate)) + " | Total: " + (((hoursWorked - 40) * (1.5 * hourlyPayRate)) +(40*hourlyPayRate)) ;
+            return "| Regular Pay: " + (40*hourlyPayRate) + "\n| Overtime: " + ((hoursWorked - 40) * (1.5 * hourlyPayRate)) + "\n| Total: " + (((hoursWorked - 40) * (1.5 * hourlyPayRate)) +(40*hourlyPayRate)) ;
         }
     }
 

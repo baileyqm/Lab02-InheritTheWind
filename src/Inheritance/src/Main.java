@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println("-10 HRS: " + testWorker.displayWeeklyPay(-10));
 
-        System.out.println("70 HRS: " + testWorker.displayWeeklyPay(70));
+        System.out.println("70 HRS: \n" + testWorker.displayWeeklyPay(70));
 
     }
 
