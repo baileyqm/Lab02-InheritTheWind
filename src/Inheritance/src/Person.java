@@ -86,7 +86,7 @@ public class Person {
         retString =  "{" + DQ + "ID" + DQ + ":" + DQ + this.ID + DQ + ",";
         retString += DQ + "firstName" + DQ + ":" + DQ + this.firstName + DQ + ",";
         retString += " " + DQ + "lastName"  + DQ + ":" + DQ + this.lastName + DQ + ",";
-        retString += " " + DQ + "YOB"  + DQ + ":" + this.YOB + "}";
+        retString += " " + DQ + "YOB"  + DQ + ":" + this.getYOB() + "}";
 
         return retString;
     }
